@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyWeb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <h1>Today?</h1>
+        <h3 class="day"></h3>
+        <h2 class="time"></h2>
+    </div>
+    <div class="login">
+        <form id="login-form" class="hidden">
+            <input required maxlength="15" type="text" placeholder="ENTER YOUR NAME!"/>
+            <input type="submit" style="display:none" value="LOGIN"/>
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+    </div>
+    <div class="todo">
+        <form id="todo-form">
+            <input type="text" placeholder="ENTER YOUR WORK!"/>
+        </form>
+        <ul style="list-style:none;" id="todo-list">
+        </ul>
+    </div>
+    <div class="schedule">
+        <form id="schedule-form">
+            <input type="text" placeholder="ENTER YOUR SCHEDULE!"/>
+        </form>
+        <ul style="list-style:none;" id="schedule-list">
+        </ul>
+    </div>
+    <h4>Today's Weather</h4>
+    <div class="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="refer">
+        <h5>참조</h5>
+        <p>
+            <span style="color:darkblue"><i class="fa-brands fa-google"></i></span><a href="https://www.google.com/" target="_blank" style="color:white; text-decoration:none";> Google&nbsp;&nbsp;</a>
+            <span style="color:green"><i class="fa-solid fa-n"></i></span><a href="https://www.naver.com/" target="blank" style="color: white; text-decoration:none";> Naver</a>
+        </p>
+    </div>
+    <script src="JS/background.js"></script>
+    <script src="JS/day.js"></script>
+    <script src="JS/time.js"></script>
+    <script src="JS/login.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/schedule.js"></script>
+    <script src="JS/weather.js"></script>
+</body>
+</html>
