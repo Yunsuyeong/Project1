@@ -50,6 +50,20 @@ img{
     height:300px;
     text-align:center;
     font-weight: bold;
+    animation-name:bounce;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes bounce{
+    0%{
+        top:35%;
+    }
+    50%{
+        top:45%;
+    }
+    100%{
+        top:35%;
+    }
 }
 
 .login input{
@@ -71,7 +85,9 @@ input::placeholder{
 #greeting{
     font-size:100px;
     color:white;
+    
 }
+
 
 .todo{
     position:absolute;
