@@ -16,8 +16,8 @@ img{
 
 .top{
     position:absolute;
-    top:13%;
-    left:13%;
+    top:10%;
+    left:50px;
     width:600px;
     height:300px;
     text-align: center;
@@ -44,7 +44,7 @@ img{
 
 .login{
     position:absolute;
-    top:40%;
+    top:100px;
     right:40%;
     width:600px;
     height:300px;
@@ -92,7 +92,7 @@ input::placeholder{
 .todo{
     position:absolute;
     top:15%;
-    right:20%;
+    right:450px;
     width:300px;
     height:50px;
     text-align:center;
@@ -125,7 +125,7 @@ input::placeholder{
 .schedule{
     position:absolute;
     top:15%;
-    right:5%;
+    right:100px;
     width:300px;
     height:50px;
     text-align:center;
@@ -157,8 +157,8 @@ input::placeholder{
 
 h4{
     position:absolute;
-    top:60%;
-    left:20%;
+    top:55%;
+    left:180px;
     text-align: center;
     font-weight: bold;
     font-size:40px;
@@ -167,8 +167,8 @@ h4{
 
 .weather{
     position:absolute;
-    top:70%;
-    left:15%;
+    top:65%;
+    left:50px;
     width:500px;
     height:300px;
     text-align: center;
